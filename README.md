@@ -20,7 +20,7 @@ You will conduct the crowdsale on the Kovan or Ropsten testnet in order to get a
 
 ### Creating your project
 
-Using Remix, create a file called `PupperCoin.sol` and create a standard `ERC20Mintable` token. Since you're already an expert at this, you can simply use this [starter code](../Starter-Code/PupperCoin.sol).
+Using Remix, create a file called `PupperCoin.sol` and create a standard `ERC20Mintable` token. 
 
 Create a new contract named `PupperCoinCrowdsale.sol`, and prepare it like a standard crowdsale.
 
@@ -32,11 +32,9 @@ You will need to simply use a standard `ERC20Mintable` and `ERC20Detailed` contr
 
 You don't need to hardcode the decimals, however since most use-cases match Ethereum's default, you may do so.
 
-Simply fill in the `PupperCoin.sol` file with this [starter code](../Starter-Code/PupperCoin.sol), which contains the complete contract you'll need to work with in the Crowdsale.
 
 #### PupperCoinCrowdsale
 
-Leverage the [Crowdsale](../Starter-Code/Crowdsale.sol) starter code, saving the file in Remix as `Crowdsale.sol`.
 
 You will need to bootstrap the contract by inheriting the following OpenZeppelin contracts:
 

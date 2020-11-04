@@ -31,7 +31,7 @@ contract PupperCoinSaleDeployer {
     {
         // @TODO: create the PupperCoin and keep its address handy
         PupperCoin token = new PupperCoin(name, symbol, 0);
-        token_address = address(token)
+        token_address = address(token);
 
 
         // @TODO: create the PupperCoinSale and tell it about the token, set the goal, and set the open and close times to now and now + 24 weeks.
